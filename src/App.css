@@ -14,7 +14,7 @@ body{
   flex: 1;
   flex-wrap: wrap;
   gap: 25px;
-   margin: auto;
+  margin: auto;
   width: 100px;
   height: 100px;
   align-items: center;
