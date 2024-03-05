@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './App.css'
 
 function App() {
 
@@ -12,11 +12,11 @@ function App() {
     { id: 6, name: "Product 6", price: 900, image: "./coffee1.jpg"},
   ];
   return (
-    <div className='conatiner'>
+    <div className='App-container'>
       {products.map((e) => (
         <div key={e.id}>
           <div>
-            <img src={e.image} alt={e.name} width={50} height={50}/>
+            <img src={e.image} alt={e.name} />
           </div>
           <div>{e.name}</div>
           <div>{e.price}</div>
