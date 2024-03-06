@@ -17,7 +17,7 @@ function App() {
       {products.map((e) => (
         <div key={e.id}>
           <div>
-            <img src={e.image} alt={e.name} width={100} height={100}/>
+            <img src={e.image} alt={e.name} width={200} height={200}/>
           </div>
           <div>{e.name}</div>
           <div>{e.price}</div>
