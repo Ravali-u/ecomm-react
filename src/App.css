@@ -11,7 +11,7 @@ body{
 .App-container{
   display: flex;
   flex-direction: row;
-  flex: 1;
+  
   flex-wrap: wrap;
   gap: 25px;
   margin: auto;
