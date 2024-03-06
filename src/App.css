@@ -8,6 +8,9 @@ body{
   background: #b1a5a5;
   color: #fff;
 } 
+.App-h{
+ text-align: center;
+}
 .App-main{
   display: flex;
   flex-direction: row;

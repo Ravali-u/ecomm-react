@@ -13,7 +13,7 @@ function App() {
   ];
   return (
     <div className='App-main'>
-      <h1>Coffee shop</h1><br/>
+      <h1 className='App-h'>Coffee shop</h1><br/>
       {products.map((e) => (
         <div className='App-container' key={e.id}>
           <div>
