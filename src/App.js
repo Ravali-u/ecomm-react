@@ -19,7 +19,6 @@ function App() {
           <div>
             <img src={e.image} alt={e.name} width={200} height={200}/>
           </div>
-          
           <div>{e.price}</div>
           <div><button>Add</button></div> 
         </div>
