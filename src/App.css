@@ -16,8 +16,8 @@ body{
   margin: auto;
   width: 100px;
   height: 100px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   padding-top: 50px; 
   padding-left: 50px;
   }
