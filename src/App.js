@@ -15,11 +15,11 @@ function App() {
     <div className='App-container'>
       <h1>Coffee shop</h1>
       {products.map((e) => (
-        <div key={e.id}>
-          <div>
+        <div className='App-container' key={e.id}>
+          <div className='App-container'>
             <img src={e.image} alt={e.name} width={200} height={200}/>
           </div>
-          <div>{e.price}</div>
+          <div className='App-container'>{e.price}</div>
           <div><button>Add</button></div> 
         </div>
       ))}
