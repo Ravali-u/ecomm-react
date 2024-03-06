@@ -13,13 +13,13 @@ function App() {
   ];
   return (
     <div className='App-main'>
-      <h1>Coffee shop</h1>
+      <h1>Coffee shop</h1><br/>
       {products.map((e) => (
         <div className='App-container' key={e.id}>
-          <div className='App-container'>
+          <div>
             <img src={e.image} alt={e.name} width={200} height={200}/>
           </div>
-          <div className='App-container'>{e.price}</div>
+          <div >{e.price}</div>
           <div><button>Add</button></div> 
         </div>
       ))}
