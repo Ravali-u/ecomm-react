@@ -8,18 +8,23 @@ body{
   background: #1a1616;
   color: #fff;
 } 
-.App-container{
+.App-main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 25px;
+  /* gap: 25px; */
   margin: auto;
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  
   /* align-items: center; */
   /* justify-content: center; */
-  padding-top: 50px; 
-  padding-left: 50px;
+  /* padding-top: 50px; 
+  padding-left: 50px; */
+  }
+  .App-container{
+    width: 300px;
+    align-items: center;
+    margin: 0px 15px;
   }
 
 /* .App {
